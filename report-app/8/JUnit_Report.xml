@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Runner By Feature" time="188.419" tests="1" failures="0" errors="0">
+   <testsuite name="Runner By Feature" tests="1" failures="0" errors="0" time="188.419" skipped="0" timestamp="2022-12-05 21:48:08" hostname="Pegipegi - LAPTOP-BVRAS5I2" id="Test Suites/Cucumber/Runner By Feature">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\platinum_challange\\secondhand-app\\Reports\\20221205_214756\\Cucumber\\Runner By Feature\\20221205_214756"/>
+         <property name="logFiles" value="D:\\platinum_challange\\secondhand-app\\Reports\\20221205_214756\\Cucumber\\Runner By Feature\\20221205_214756\\appium.log, D:\\platinum_challange\\secondhand-app\\Reports\\20221205_214756\\Cucumber\\Runner By Feature\\20221205_214756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pegipegi - LAPTOP-BVRAS5I2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber/Runner By Feature/Notification Buyer" time="187.964" classname="Test Cases/Cucumber/Runner By Feature/Notification Buyer" status="PASSED">
+         <system-out><![CDATA[2022-12-05 21:48:09 - [TEST_CASE][PASSED] - Test Cases/Cucumber/Runner By Feature/Notification Buyer: Test Cases/Cucumber/Runner By Feature/Notification Buyer
+
+2022-12-05 21:48:10 - [TEST_STEP][PASSED] - runWithCucumberRunner(Runner_Notification_Buyer): Run with 'Runner_Notification_Buyer' was passed
+
+2022-12-05 21:48:11 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:48:11 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:48:11 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:48:12 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-05 21:48:14 - [MESSAGE][INFO] - Appium server started on port 61,233
+
+2022-12-05 21:48:35 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:48:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:48:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:41 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:42 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:46 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:48:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:48:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:48 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Tittle_Notifikasi2' is checked
+
+2022-12-05 21:48:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:48:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:48:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:48:50 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:48:50 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:48:50 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:49:08 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:49:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:49:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:49:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:14 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:49:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:15 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:49:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:18 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:49:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:21 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Berhasil diterbitkan' is checked
+
+2022-12-05 21:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:49:24 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:49:24 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:49:24 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:49:49 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:49:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:54 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:55 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:59 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:49:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:49:59 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:49:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:50:03 - [MESSAGE][PASSED] - Scrolling to text 'Ditawar' successfully
+
+2022-12-05 21:50:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:04 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Ditawar2' is checked
+
+2022-12-05 21:50:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:50:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:50:06 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:50:06 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:50:06 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:50:26 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:50:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:50:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:32 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:50:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:33 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:50:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:50:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:36 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:37 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:39 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Ditolak2' is checked
+
+2022-12-05 21:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:50:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:50:42 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:50:42 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:50:42 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:51:01 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:51:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:51:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:06 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:08 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:11 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:51:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:51:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Berhasil Ditawar' is checked
+
+2022-12-05 21:51:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:51:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:51:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:51:17 - [MESSAGE][PASSED] - Run with 'Runner_Notification_Buyer' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-05 21:48:08 - [TEST_SUITE][PASSED] - Runner By Feature: Test Cases/Cucumber/Runner By Feature/Notification Buyer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

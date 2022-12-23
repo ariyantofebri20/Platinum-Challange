@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Runner By Feature" time="619.104" tests="3" failures="2" errors="0">
+   <testsuite name="Runner By Feature" tests="3" failures="2" errors="0" time="619.104" skipped="0" timestamp="2022-12-05 21:14:04" hostname="Pegipegi - LAPTOP-BVRAS5I2" id="Test Suites/Cucumber/Runner By Feature">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349"/>
+         <property name="logFiles" value="D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\appium.log, D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\execution0.log"/>
+         <property name="attachments" value="D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250078378.png, D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250126300.png, D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250177036.png, D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250225090.png"/>
+         <property name="hostName" value="Pegipegi - LAPTOP-BVRAS5I2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber/Runner By Feature/Seller Product" time="257.994" classname="Test Cases/Cucumber/Runner By Feature/Seller Product" status="PASSED">
+         <system-out><![CDATA[2022-12-05 21:14:04 - [TEST_CASE][PASSED] - Test Cases/Cucumber/Runner By Feature/Seller Product: Test Cases/Cucumber/Runner By Feature/Seller Product
+
+2022-12-05 21:14:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(Runner_Seller_Product): Run with 'Runner_Seller_Product' was passed
+
+2022-12-05 21:14:07 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:14:07 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:14:07 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:14:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-05 21:14:09 - [MESSAGE][INFO] - Appium server started on port 57,098
+
+2022-12-05 21:14:34 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:14:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:14:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:40 - [MESSAGE][PASSED] - Text 'almas.testing@gmail.com' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:41 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:14:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:14:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_beranda'
+
+2022-12-05 21:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:48 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is visible
+
+2022-12-05 21:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_jual'
+
+2022-12-05 21:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_nama produk' text is cleared
+
+2022-12-05 21:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:51 - [MESSAGE][PASSED] - Text 'Baju Anak' has been set to element 'Object Repository/Page_Seller Product/input_nama produk'
+
+2022-12-05 21:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:52 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_harga produk' text is cleared
+
+2022-12-05 21:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:53 - [MESSAGE][PASSED] - Text '50000' has been set to element 'Object Repository/Page_Seller Product/input_harga produk'
+
+2022-12-05 21:14:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_dropdown kategori'
+
+2022-12-05 21:14:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_upload image'
+
+2022-12-05 21:14:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:56 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_lokasi' text is cleared
+
+2022-12-05 21:14:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:58 - [MESSAGE][PASSED] - Text 'Bandung' has been set to element 'Object Repository/Page_Seller Product/input_lokasi'
+
+2022-12-05 21:14:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:14:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_deskripsi' text is cleared
+
+2022-12-05 21:14:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:01 - [MESSAGE][PASSED] - Text 'Tersedia ukuran S, M, L' has been set to element 'Object Repository/Page_Seller Product/input_deskripsi'
+
+2022-12-05 21:15:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_upload image'
+
+2022-12-05 21:15:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_galeri'
+
+2022-12-05 21:15:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/image_product'
+
+2022-12-05 21:15:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_terbitkan'
+
+2022-12-05 21:15:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar Jual/text_produk berhasil diterbitkan' is visible
+
+2022-12-05 21:15:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_back 2'
+
+2022-12-05 21:15:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:15:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is checked
+
+2022-12-05 21:15:15 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:15:15 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:15:15 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:15:41 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:15:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:15:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:15:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:45 - [MESSAGE][PASSED] - Text 'almas.testing@gmail.com' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:15:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:47 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:15:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:15:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:49 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_beranda'
+
+2022-12-05 21:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:52 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is visible
+
+2022-12-05 21:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_jual'
+
+2022-12-05 21:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_terbitkan'
+
+2022-12-05 21:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:55 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/text_tambah produk' is visible
+
+2022-12-05 21:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_back 2'
+
+2022-12-05 21:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:15:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:02 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is checked
+
+2022-12-05 21:16:02 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:16:02 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:16:02 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:16:24 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:16:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:29 - [MESSAGE][PASSED] - Text 'almas.testing@gmail.com' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:16:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:31 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:33 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_daftar_jual_saya'
+
+2022-12-05 21:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:37 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar Jual/text_daftar jual saya' is visible
+
+2022-12-05 21:16:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-05 21:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_back 2'
+
+2022-12-05 21:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:16:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is checked
+
+2022-12-05 21:16:45 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:16:45 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:16:45 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:17:06 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:17:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:17:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:12 - [MESSAGE][PASSED] - Text 'almas.testing@gmail.com' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:13 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_daftar_jual_saya'
+
+2022-12-05 21:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/card_product'
+
+2022-12-05 21:17:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_nama produk' text is cleared
+
+2022-12-05 21:17:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:24 - [MESSAGE][PASSED] - Text 'Baju Dewasa' has been set to element 'Object Repository/Page_Seller Product/input_nama produk'
+
+2022-12-05 21:17:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:25 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_harga produk' text is cleared
+
+2022-12-05 21:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:27 - [MESSAGE][PASSED] - Text '150000' has been set to element 'Object Repository/Page_Seller Product/input_harga produk'
+
+2022-12-05 21:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:28 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_lokasi' text is cleared
+
+2022-12-05 21:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:29 - [MESSAGE][PASSED] - Text 'Yogyakarta' has been set to element 'Object Repository/Page_Seller Product/input_lokasi'
+
+2022-12-05 21:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:30 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Seller Product/input_deskripsi' text is cleared
+
+2022-12-05 21:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:32 - [MESSAGE][PASSED] - Text 'Tersedia ukuran S, M, L, XL' has been set to element 'Object Repository/Page_Seller Product/input_deskripsi'
+
+2022-12-05 21:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Seller Product/button_perbarui produk'
+
+2022-12-05 21:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:35 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar Jual/text_produk berhasil diperbarui' is visible
+
+2022-12-05 21:17:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_back 2'
+
+2022-12-05 21:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:17:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:17:41 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is checked
+
+2022-12-05 21:17:41 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:17:41 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:17:41 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:17:59 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:18:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:18:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:05 - [MESSAGE][PASSED] - Text 'almas.testing@gmail.com' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:06 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:18:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:18:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:10 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:18:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_daftar_jual_saya'
+
+2022-12-05 21:18:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/icon_hapus'
+
+2022-12-05 21:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_hapus'
+
+2022-12-05 21:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar Jual/text_produk berhasil dihapus' is visible
+
+2022-12-05 21:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar Jual/button_back 2'
+
+2022-12-05 21:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_akun'
+
+2022-12-05 21:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Beranda/text_telusuri kategori' is checked
+
+2022-12-05 21:18:22 - [MESSAGE][PASSED] - Run with 'Runner_Seller_Product' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cucumber/Runner By Feature/Notification Buyer" time="225.958" classname="Test Cases/Cucumber/Runner By Feature/Notification Buyer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cucumber/Runner By Feature/Notification Buyer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-05 21:18:22 - [TEST_CASE][FAILED] - Test Cases/Cucumber/Runner By Feature/Notification Buyer: Test Cases/Cucumber/Runner By Feature/Notification Buyer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+
+
+2022-12-05 21:18:23 - [TEST_STEP][FAILED] - runWithCucumberRunner(Runner_Notification_Buyer): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+
+2022-12-05 21:18:23 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:18:23 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:18:23 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:18:42 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:48 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:49 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:53 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:53 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:56 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Tittle_Notifikasi2' is checked
+
+2022-12-05 21:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:18:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:18:59 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:18:59 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:18:59 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:19:20 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:19:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:28 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:29 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:19:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:19:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:33 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:34 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:37 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Berhasil diterbitkan' is checked
+
+2022-12-05 21:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:19:39 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:19:39 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:19:39 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:19:57 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:19:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:03 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:05 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:08 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:20:12 - [MESSAGE][PASSED] - Scrolling to text 'Ditawar' successfully
+
+2022-12-05 21:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Notifikasi/Notif_Ditawar2' is checked
+
+2022-12-05 21:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:20:15 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:20:15 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:20:15 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:20:34 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:40 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:42 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:46 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:20:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_notifikasi'
+
+2022-12-05 21:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:21:19 - [MESSAGE][FAILED] - Failed to check element 'Object Repository/Page_Notifikasi/Notif_Ditolak2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.checkElement(MobileElementCommonHelper.java:165)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.doCall(CheckElementKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.call(CheckElementKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.checkElement(CheckElementKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.execute(CheckElementKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.checkElement(MobileBuiltInKeywords.groovy:2432)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$checkElement$2.call(Unknown Source)
+	at stepDefinition.Notification_Buyer.Buyer_gets_notification_Ditolak(Notification_Buyer.groovy:62)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+[[ATTACHMENT|D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250078378.png]]
+
+2022-12-05 21:21:19 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:21:19 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:21:19 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:21:34 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:21:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:21:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:22:06 - [MESSAGE][FAILED] - Object Object Repository/Page_Akun/Before Login/button_masuk not found
+
+2022-12-05 21:22:08 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Page_Akun/Before Login/button_masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Page_Akun/Before Login/button_masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at stepDefinition.Login.user_click_button_of_Masuk(Login.groovy:39)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+[[ATTACHMENT|D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250126300.png]]
+
+2022-12-05 21:22:08 - [MESSAGE][FAILED] - These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+
+2022-12-05 21:22:08 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-05 21:18:22 - [TEST_CASE][FAILED] - Test Cases/Cucumber/Runner By Feature/Notification Buyer: Test Cases/Cucumber/Runner By Feature/Notification Buyer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cucumber/Runner By Feature/Transaction History" time="134.564" classname="Test Cases/Cucumber/Runner By Feature/Transaction History" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cucumber/Runner By Feature/Transaction History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-05 21:22:08 - [TEST_CASE][FAILED] - Test Cases/Cucumber/Runner By Feature/Transaction History: Test Cases/Cucumber/Runner By Feature/Transaction History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+
+
+2022-12-05 21:22:09 - [TEST_STEP][FAILED] - runWithCucumberRunner(Runner_Transaction_History): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+
+2022-12-05 21:22:09 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:22:09 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:22:09 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:22:24 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:22:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:22:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:22:57 - [MESSAGE][FAILED] - Object Object Repository/Page_Akun/Before Login/button_masuk not found
+
+2022-12-05 21:22:59 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Page_Akun/Before Login/button_masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Page_Akun/Before Login/button_masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at stepDefinition.Login.user_click_button_of_Masuk(Login.groovy:39)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+[[ATTACHMENT|D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250177036.png]]
+
+2022-12-05 21:22:59 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:22:59 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:22:59 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:23:13 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:23:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:23:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:23:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:23:45 - [MESSAGE][FAILED] - Object Object Repository/Page_Akun/Before Login/button_masuk not found
+
+2022-12-05 21:23:47 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Page_Akun/Before Login/button_masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Page_Akun/Before Login/button_masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at stepDefinition.Login.user_click_button_of_Masuk(Login.groovy:39)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)
+[[ATTACHMENT|D:\\platinum_challange\\secondhand-app\\Reports\\20221205_211349\\Cucumber\\Runner By Feature\\20221205_211349\\1670250225090.png]]
+
+2022-12-05 21:23:47 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-12-05 21:23:47 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2022-12-05 21:23:47 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-12-05 21:24:01 - [MESSAGE][PASSED] - Started app at: 'D:\platinum_challange\secondhand-app\APK File\app-release.apk'
+
+2022-12-05 21:24:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/Before Login/button_masuk'
+
+2022-12-05 21:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:12 - [MESSAGE][PASSED] - Text 'studentqa2@binar.id' has been set to element 'Object Repository/Page_Login/input_email'
+
+2022-12-05 21:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:13 - [MESSAGE][PASSED] - Text 'studentQA2' has been set to element 'Object Repository/Page_Login/input_password'
+
+2022-12-05 21:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_masuk'
+
+2022-12-05 21:24:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_username' is checked
+
+2022-12-05 21:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/After Login/account_email' is checked
+
+2022-12-05 21:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/button_transaksi'
+
+2022-12-05 21:24:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:21 - [MESSAGE][PASSED] - Element 'Object Repository/Page_History Transaksi/History_Dibatalkan' is checked
+
+2022-12-05 21:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/menu_akun'
+
+2022-12-05 21:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-05 21:24:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/After Login/menu_keluar'
+
+2022-12-05 21:24:23 - [MESSAGE][FAILED] - These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+
+2022-12-05 21:24:23 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-05 21:22:08 - [TEST_CASE][FAILED] - Test Cases/Cucumber/Runner By Feature/Transaction History: Test Cases/Cucumber/Runner By Feature/Transaction History FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Akun/Before Login/button_masuk not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Transaction History.run(Transaction History:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-05 21:14:04 - [TEST_SUITE][FAILED] - Runner By Feature: Test Cases/Cucumber/Runner By Feature/Notification Buyer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-12-05 21:14:04 - [TEST_SUITE][FAILED] - Runner By Feature: Test Cases/Cucumber/Runner By Feature/Notification Buyer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Object Object Repository/Page_Notifikasi/Notif_Ditolak2 not found, Object Object Repository/Page_Akun/Before Login/button_masuk not found]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:633)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Notification Buyer.run(Notification Buyer:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670249629260.run(TempTestSuite1670249629260.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
